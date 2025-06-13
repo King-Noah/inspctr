@@ -7,6 +7,8 @@ from openai import OpenAI
 from PIL import Image
 import os
 
+from prompts import get_prompt_for_system
+
 # Show key sanity check
 api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
@@ -64,20 +66,8 @@ def validate_key_vision():
         return False
 
 # Main image analysis
-def analyze_image_base64(base64_image):
-    prompt_text = """
-        You are a licensed home inspector trained to follow the Texas Real Estate Commission (TREC) Standards of Practice (SOP). Examine the image provided and identify any visible deficiencies that would be reportable in a home inspection report.
-
-        For each deficiency you identify, provide the following:
-
-        - **Title**: A brief name for the issue.
-        - **Description**: A concise summary of the condition and why it's considered a deficiency.
-        - **TREC SOP Reference**: Include the section number (e.g., 535.228(c)(2)(E)) if applicable or known.
-        - **Severity**: Classify as one of the following: Cosmetic, Functional, Safety Concern, or Major Structural.
-        - **Recommended Action**: A professional recommendation for the client (e.g., "Consult a licensed electrician").
-
-        Use inspection terminology, keep explanations clear and professional, and do not speculate beyond what is visibly evident in the image.
-    """
+def analyze_image_base64(base64_image, system_type="general"):
+    prompt_text = get_prompt_for_system(system_type)
 
     try:
         response = client.chat.completions.create(
@@ -117,6 +107,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Analyze home inspection image")
     parser.add_argument("image_path", help="Path to the image file")
     parser.add_argument("--serve", action="store_true", help="Run as API server")
+    parser.add_argument(
+        "--system",
+        type=str,
+        default="general",
+        help="Type of structural system to analyze (e.g., roofing, hvac, electrical, plumbing, foundation)"
+    )
+    
     args = parser.parse_args()
 
     if args.serve:
