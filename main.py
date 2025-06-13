@@ -21,6 +21,7 @@ client = OpenAI(api_key=api_key)
 # FastAPI app
 app = FastAPI()
 
+# file format check
 def ensure_supported_format(image_path):
     supported_extensions = [".jpg", ".jpeg", ".png"]
     ext = os.path.splitext(image_path)[1].lower()
@@ -113,7 +114,7 @@ if __name__ == "__main__":
         default="general",
         help="Type of structural system to analyze (e.g., roofing, hvac, electrical, plumbing, foundation)"
     )
-    
+
     args = parser.parse_args()
 
     if args.serve:
