@@ -23,10 +23,14 @@ SYSTEM_NAME_MAPPING = {
     "hvac": "HVAC system components (furnace, air conditioner, ductwork, vents, thermostat, etc.)",
     "electrical": "electrical system components (panels, wiring, outlets, switches, breakers, grounding, etc.)",
     "plumbing": "plumbing components (pipes, fixtures, drains, water heaters, valves, etc.)",
-    "foundation": "structural components such as foundations, footings, beams, joists, columns, and supports"
+    "structural": "structural components such as foundations, footings, beams, joists, columns, and supports."
 }
 
-def get_prompt_for_system(system_type):
-    system_key = system_type.lower()
-    system_name = SYSTEM_NAME_MAPPING.get(system_key, SYSTEM_NAME_MAPPING["general"])
-    return BASE_PROMPT.format(system_name=system_name)
+def get_prompt(system_types):
+    descriptions = []
+    for system_key in system_types:
+        key = system_key.lower()
+        descriptions.append(SYSTEM_NAME_MAPPING.get(key, SYSTEM_NAME_MAPPING["general"]))
+    system_description = "; ".join(descriptions)
+    return BASE_PROMPT.format(system_name=system_description)
+

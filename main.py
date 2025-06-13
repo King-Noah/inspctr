@@ -1,13 +1,14 @@
-import base64
 import argparse
+import base64
+import os
+import uvicorn
+
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
-import uvicorn
 from openai import OpenAI
 from PIL import Image
-import os
 
-from prompts import get_prompt_for_system
+from prompts import get_prompt
 
 # Show key sanity check
 api_key = os.getenv("OPENAI_API_KEY")
@@ -67,8 +68,8 @@ def validate_key_vision():
         return False
 
 # Main image analysis
-def analyze_image_base64(base64_image, system_type="general"):
-    prompt_text = get_prompt_for_system(system_type)
+def analyze_image_base64(base64_image, system_types=["general"]):
+    prompt_text = get_prompt(system_types)
 
     try:
         response = client.chat.completions.create(
@@ -108,31 +109,23 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Analyze home inspection image")
     parser.add_argument("image_path", help="Path to the image file")
     parser.add_argument("--serve", action="store_true", help="Run as API server")
-    parser.add_argument(
-        "--system",
-        type=str,
-        default="general",
-        help="Type of structural system to analyze (e.g., roofing, hvac, electrical, plumbing, foundation)"
-    )
-
+    parser.add_argument("--system", type=str, nargs="+", default=["general"], help="System types to analyze (e.g., --system hvac foundation plumbing)")
+    
     args = parser.parse_args()
 
     if args.serve:
         uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
     else:
-        print("🧪 Validating API key for vision access...")
+        print("🦚 Validating API key for vision access...")
         if validate_key_vision():
             print("✅ Vision API access confirmed.")
         else:
             print("⚠️ Vision access NOT confirmed. GPT-4o may not be able to see images.")
 
-        # Ensure image is in a supported format and note if conversion was done
         safe_path, was_converted = ensure_supported_format(args.image_path)
-
         base64_image = encode_image(safe_path)
-        result = analyze_image_base64(base64_image)
+        result = analyze_image_base64(base64_image, args.system)
         print(result)
 
-        # Delete temporary converted file if created
         if was_converted and os.path.exists(safe_path):
             os.remove(safe_path)
