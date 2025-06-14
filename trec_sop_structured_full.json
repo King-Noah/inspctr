@@ -1,0 +1,495 @@
+{
+  "535.228": {
+    "title": "Standards of Practice: Minimum Inspection Requirements for Structural Systems",
+    "sections": {
+      "Foundations": {
+        "inspector_shall": [
+          "render a written opinion as to the performance of the foundation",
+          "report the type of foundations",
+          "report the vantage point from which the crawl space was inspected",
+          "generally report present and visible indications used to render the opinion of adverse performance, such as: binding, out-of-square, non-latching doors; framing or frieze board separations; sloping floors; window, wall, floor, or ceiling cracks or separations; and rotating, buckling, cracking, or deflecting masonry cladding",
+          "report as Deficient: deteriorated materials; deficiencies in foundation components such as beams, joists, bridging, blocking, piers, posts, pilings, columns, sills or subfloor; deficiencies in retaining walls related to foundation performance; exposed or damaged reinforcement; crawl space ventilation that is not performing; and crawl space drainage that is not performing"
+        ],
+        "inspector_not_required_to": [
+          "enter a crawl space or any area where headroom is less than 18 inches or the access opening is less than 24 inches wide and 18 inches high",
+          "provide an exhaustive list of indicators of possible adverse performance",
+          "inspect retaining walls not related to foundation performance"
+        ]
+      },
+      "Grading and drainage": {
+        "inspector_shall": [
+          "report as Deficient: drainage around the foundation that is not performing; deficiencies in grade levels around the foundation; and deficiencies in installed gutter and downspout systems"
+        ],
+        "inspector_not_required_to": [
+          "inspect flatwork or detention/retention ponds (except as related to slope and drainage)",
+          "determine area hydrology or the presence of underground water",
+          "determine the efficiency or performance of underground or surface drainage systems"
+        ]
+      }
+    }
+  },
+  "\u00a7535.229": {
+    "title": "Minimum Inspection Requirements for Electrical Systems",
+    "sections": {
+      "Service entrance and panels": {
+        "shall_report_deficient": [
+          "a drop, weatherhead or mast that is not securely fastened to the building",
+          "the absence of or deficiencies in the grounding electrode system",
+          "missing or damaged dead fronts or covers plates",
+          "conductors not protected from the edges of electrical cabinets, gutters, or cutout boxes",
+          "electrical cabinets and panel boards not appropriate for their location",
+          "electrical cabinets and panel boards that are not accessible or do not have a minimum of 36-inches of clearance",
+          "deficiencies in electrical cabinets, gutters, cutout boxes, and panel boards",
+          "deficiencies in insulation, compatibility, bonding and grounding",
+          "the absence of trip ties on 250 volt overcurrent devices",
+          "the absence of appropriate connections, anti-oxidants, and main disconnecting means"
+        ],
+        "not_required": [
+          "determine service capacity, voltage, or sufficiency",
+          "conduct voltage drop calculations",
+          "determine overcurrent device labeling accuracy",
+          "remove hazardous covers",
+          "verify overcurrent device effectiveness",
+          "operate overcurrent devices"
+        ]
+      },
+      "Branch circuits, connected devices, and fixtures": {
+        "shall": [
+          "manually test the installed and accessible smoke and carbon monoxide alarms",
+          "report the type of branch circuit conductors"
+        ],
+        "shall_report_deficient": [
+          "absence of GFCI protection in designated areas",
+          "absence of AFCI protection in specified rooms",
+          "failure of GFCI devices",
+          "missing or damaged covers",
+          "absence of equipment disconnects or appropriate connections",
+          "receptacles not tamper resistant under 5.5 feet",
+          "deficiencies in 125v and 250v receptacles",
+          "deficiencies in switches, bonding, grounding, and devices",
+          "improper use of extension cords",
+          "deficiencies in conduit, smoke and carbon monoxide alarms"
+        ],
+        "not_required": [
+          "inspect low voltage wiring",
+          "disassemble appliances",
+          "verify effectiveness or interconnectivity of alarms",
+          "activate monitored alarms",
+          "verify alarms for hearing impaired",
+          "remove covers unless required",
+          "test AFCIs if occupied or damage may result"
+        ]
+      }
+    }
+  },
+  "535.230": {
+    "title": "Standards of Practice: Minimum Inspection Requirements for Heating, Ventilation, and Air Conditioning Systems",
+    "sections": {
+      "Heating equipment": {
+        "General requirements": {
+          "inspector_shall": [
+            "report the type of heating systems",
+            "report the energy sources"
+          ],
+          "report_as_deficient": [
+            "inoperative units",
+            "deficiencies in the thermostats",
+            "inappropriate location",
+            "lack of protection from physical damage",
+            "burners, ignition devices, heating elements, switches, and thermostats not 18 inches above garage floor unless listed",
+            "absence of an opening for access to equipment",
+            "absence of floored passageway and service platform if applicable",
+            "deficiencies in mounting and performance of window and wall units"
+          ]
+        },
+        "Requirements for electric units": {
+          "report_as_deficient": [
+            "performance of heat pumps",
+            "performance of heating elements",
+            "condition of conductors"
+          ]
+        },
+        "Requirements for gas units": {
+          "report_as_deficient": [
+            "gas leaks not associated with gas distribution system",
+            "flame impingement, uplifting flame, improper flame color, excessive scale buildup",
+            "deficiencies in combustion and dilution air",
+            "deficiencies in vent pipe, draft hood, draft, proximity to combustibles, and termination point"
+          ]
+        }
+      },
+      "Cooling equipment": {
+        "Cooling units other than evaporative coolers": {
+          "inspector_shall": [
+            "report the type of systems",
+            "measure and report supply and return air temperature difference or report method",
+            "report extraneous conditions affecting performance"
+          ],
+          "report_as_deficient": [
+            "inoperative units",
+            "cooling system that fails to achieve 15\u201322\u00b0F differential or fails to cool adequately",
+            "absence of an opening for access to equipment",
+            "absence of floored passageway and service platform if applicable",
+            "noticeable vibration of blowers or fans",
+            "water in auxiliary/secondary drain pan",
+            "primary drain pipe discharging into sewer vent",
+            "missing or deficient refrigerant pipe insulation",
+            "dirty coils where accessible",
+            "condensing units with clearance, circulation, fin, location, or elevation issues",
+            "deficiencies in drain systems, mounting/performance of wall units, and thermostats"
+          ]
+        },
+        "Evaporative coolers": {
+          "inspector_shall": [
+            "report the type of systems",
+            "report the type of water supply line"
+          ],
+          "report_as_deficient": [
+            "inoperative units",
+            "inadequate access and clearances",
+            "deficiencies in performance or mounting",
+            "missing or damaged components",
+            "active water leaks",
+            "absence of backflow prevention"
+          ]
+        }
+      },
+      "Duct systems, chases, and vents": {
+        "report_as_deficient": [
+          "damaged duct systems or improper material",
+          "damaged or missing duct insulation",
+          "absence of air flow at accessible supply registers",
+          "presence of gas piping and sewer vents in ducts, plenums, chases",
+          "ducts/plenums in contact with earth",
+          "deficiencies in filters, grills or registers, and return air opening locations"
+        ]
+      },
+      "Not required": [
+        "program digital thermostats or controls",
+        "inspect refrigerant pressure/type/leaks, winterized/decommissioned equipment, duct fans, humidifiers, etc.",
+        "operate setback features, radiant heaters, steam systems, or unvented gas-fired appliances",
+        "verify compatibility, tonnage, thermostat accuracy, or heat exchanger integrity",
+        "determine system sizing, efficiency, adequacy, or air flow balance"
+      ]
+    }
+  },
+  "535.231": {
+    "title": "Standards of Practice: Minimum Inspection Requirements for Plumbing Systems",
+    "subsections": {
+      "Plumbing systems": {
+        "inspector_shall": [
+          "report location of water meter",
+          "report location of homeowners main water supply shutoff valve",
+          "report static water pressure",
+          "report visible material used for water supply lines and drain lines"
+        ],
+        "report_as_deficient": [
+          "presence of active leaks",
+          "water pressure exceeding 80 PSI",
+          "lack of pressure reducing valve when water pressure exceeds 80 PSI",
+          "lack of visible expansion tank when a pressure reducing valve, check valve, or backflow preventer is in place",
+          "absence of fixture shutoff valves",
+          "absence of dielectric unions, when applicable",
+          "absence of back-flow devices, anti-siphon devices, or air gaps at the flow end of fixtures",
+          "deficiencies in water supply pipes and waste pipes",
+          "deficiencies in vent system installation and termination",
+          "deficiencies in performance of fixtures and faucets not connected to an appliance",
+          "deficiencies in functional flow from two fixtures operated simultaneously",
+          "deficiencies in fixture drain performance",
+          "deficiencies in orientation of hot and cold faucets",
+          "deficiencies in installed mechanical drain stops",
+          "deficiencies in commodes, fixtures, showers, tubs, and enclosures",
+          "deficiencies in gas distribution system condition"
+        ],
+        "inspector_not_required_to": [
+          "operate any main, branch, or shut-off valves",
+          "operate or inspect sump pumps or waste ejector pumps",
+          "verify performance of bathtub overflow, clothes washer drains, or hose bibbs",
+          "verify performance of floor drains",
+          "inspect systems that are winterized, shut down, or secured",
+          "inspect circulating pumps, solar water heating, water conditioning/filter systems, water mains, private systems, wells, tanks, sprinkler systems, swimming pools, or fire sprinklers",
+          "inspect inaccessible gas supply components for leaks",
+          "inspect for sewer clean-outs or private sewage system performance",
+          "determine water quality, potability, or volume",
+          "determine effectiveness of backflow/anti-siphon devices"
+        ]
+      },
+      "Water heaters": {
+        "general_requirements": {
+          "inspector_shall": [
+            "report energy source",
+            "report capacity of units"
+          ],
+          "report_as_deficient": [
+            "inoperative units",
+            "leaking or corroded fittings or tanks",
+            "damaged or missing components",
+            "absence of cold water shutoff valve",
+            "absence of pan or improper pan drain termination",
+            "inappropriate locations",
+            "lack of protection from physical damage",
+            "units not 18\" above garage floor (unless rated for it)",
+            "lack of access opening",
+            "lack of floored passageway and service platform",
+            "absence or visible deficiencies in temperature/pressure relief valve and discharge piping",
+            "non-operational temperature and pressure relief valve"
+          ],
+          "inspector_not_required_to": [
+            "verify effectiveness of temperature/pressure relief valve or pan drain pipes",
+            "operate relief valve if it may cause damage",
+            "determine efficiency or adequacy of unit"
+          ]
+        },
+        "electric_units": {
+          "report_as_deficient": [
+            "deficiencies in heating element performance",
+            "deficiencies in condition of conductors"
+          ]
+        },
+        "gas_units": {
+          "report_as_deficient": [
+            "gas leaks not related to distribution system",
+            "flame issues: impingement, uplifting flame, color, scale build-up",
+            "deficiencies in combustion and dilution air",
+            "deficiencies in vent pipe, draft hood, proximity to combustibles, termination point and clearances"
+          ]
+        }
+      },
+      "Hydro-massage therapy equipment": {
+        "report_as_deficient": [
+          "inoperative units",
+          "active leaks",
+          "component/performance deficiencies",
+          "missing or damaged components",
+          "no access opening for equipment service",
+          "no or nonfunctional GFCI protection"
+        ],
+        "inspector_not_required_to": [
+          "determine adequacy of self-draining features"
+        ]
+      },
+      "Gas distribution systems": {
+        "inspector_shall": [
+          "report location of gas meter",
+          "report visible material of gas system"
+        ],
+        "report_as_deficient": [
+          "noticeable gas leaks",
+          "no shutoff valve within 6 feet of appliance",
+          "no or improper appliance connector",
+          "connectors concealed within or passing through walls, floors, etc.",
+          "deficiencies in shutoff valves, access, materials, line condition",
+          "lack of visible bonding including CSST",
+          "no sediment traps"
+        ],
+        "inspector_not_required_to": [
+          "inspect sacrificial anode bonding",
+          "pressure test gas system or drip legs",
+          "operate shutoff valves",
+          "light or ignite pilot flames"
+        ]
+      }
+    }
+  },
+  "535.232": {
+    "title": "Standards of Practice: Minimum Inspection Requirements for Appliances",
+    "sections": {
+      "dishwashers": {
+        "inspector_shall_report_deficient": [
+          "inoperative units",
+          "deficiencies in performance or mounting",
+          "rusted, missing or damaged components",
+          "the presence of visible active water leaks",
+          "the absence of visible backflow prevention"
+        ]
+      },
+      "food_waste_disposers": {
+        "inspector_shall_report_deficient": [
+          "inoperative units",
+          "deficiencies in performance or mounting",
+          "missing or damaged components",
+          "the presence of visible active water leaks"
+        ]
+      },
+      "range_hoods_and_exhaust_systems": {
+        "inspector_shall_report_deficient": [
+          "inoperative units",
+          "deficiencies in performance or mounting",
+          "missing or damaged components",
+          "ducts that do not terminate outside the building, if the unit is not of a re-circulating type or configuration",
+          "improper duct material"
+        ]
+      },
+      "electric_or_gas_ranges_cooktops_and_ovens": {
+        "inspector_shall_report_deficient": [
+          "inoperative units",
+          "missing or damaged components",
+          "combustible material within thirty inches above the cook top burners",
+          "absence of an anti-tip device, if applicable",
+          "gas leaks in the gas range, cooktops and ovens not associated with the gas distribution system",
+          "deficiencies in: thermostat accuracy (within 25 degrees Fahrenheit at a setting of 350 degrees Fahrenheit), mounting and performance"
+        ]
+      },
+      "microwave_ovens": {
+        "inspector_shall_inspect_and_report_deficient": [
+          "inoperative units",
+          "deficiencies in performance or mounting",
+          "missing or damaged components"
+        ]
+      },
+      "mechanical_exhaust_systems_and_bathroom_heaters": {
+        "inspector_shall_report_deficient": [
+          "the lack of mechanical ventilation in a bathroom if no operable window is present",
+          "inoperative units",
+          "deficiencies in performance or mounting",
+          "missing or damaged components",
+          "ducts that do not terminate outside the building",
+          "a gas heater that is not vented to the exterior of the building unless the unit is listed as an unvented type"
+        ]
+      },
+      "garage_door_operators": {
+        "inspector_shall_report_deficient": [
+          "inoperative units",
+          "deficiencies in performance or mounting",
+          "missing or damaged components",
+          "installed photoelectric sensors located more than six inches above the garage floor",
+          "deficiencies in performance or absence of auto reversing mechanisms and manual detachment device",
+          "door locks or side ropes that have not been removed or disabled"
+        ]
+      },
+      "dryer_exhaust_systems": {
+        "inspector_shall_report_deficient": [
+          "missing or damaged components",
+          "the absence of a dryer exhaust system when provisions are present for a dryer",
+          "ducts that do not terminate to the outside of the building",
+          "screened terminations",
+          "ducts that are not made of metal with a smooth interior finish"
+        ]
+      },
+      "general_provisions": {
+        "inspector_not_required_to": [
+          "operate or determine the condition of other auxiliary components of inspected items",
+          "test for microwave oven radiation leaks",
+          "inspect self-cleaning functions",
+          "disassemble appliances",
+          "determine the adequacy of venting systems",
+          "determine proper routing and lengths of duct systems",
+          "operate or determine the condition of clothes washer, clothes dryer, or refrigerator",
+          "operate or determine the condition of other built in appliances, except as provided for under \u00a7535.233(h), of this title"
+        ]
+      }
+    }
+  },
+  "535.233": {
+    "title": "Standards of Practice: Minimum Inspection Requirements for Optional Systems",
+    "sections": [
+      {
+        "heading": "General Provisions",
+        "required": [
+          "An inspector is not required to inspect the components or systems described under this section.",
+          "If an inspector agrees to inspect a component or system described under this section, the general provisions under \u00a7535.227 of this title and the provisions and requirements of this section applicable to that component or system apply."
+        ]
+      },
+      {
+        "heading": "Landscape irrigation (sprinkler) systems",
+        "required": [
+          "Manually operate all zones or stations on the system through the controller"
+        ],
+        "deficient": [
+          "The absence of a rain or moisture sensor",
+          "Inoperative zone valves",
+          "Surface water leaks",
+          "The absence of a backflow prevention device",
+          "The absence of shutoff valves between the water meter and backflow device",
+          "Deficiencies in the performance and mounting of the controller",
+          "Missing or damaged components",
+          "Deficiencies in the performance of the water emission devices; such as, sprayer heads, rotary sprinkler heads, bubblers or drip lines"
+        ],
+        "not_required": [
+          "Inspect for effective coverage of the irrigation system",
+          "Inspect the automatic function of the controller",
+          "Inspect the effectiveness of the sensors; such as, rain, moisture, wind, flow or freeze sensors",
+          "Inspect sizing and effectiveness of backflow prevention device",
+          "Report on the performance of an underground zone"
+        ]
+      },
+      {
+        "heading": "Swimming pools, spas, hot tubs, and equipment",
+        "required": [
+          "Report the type of construction"
+        ],
+        "deficient": [
+          "The presence of a single blockable main drain (potential entrapment hazard)",
+          "A pump motor, blower, or other electrical equipment that lacks bonding",
+          "The absence of or deficiencies in safety barriers",
+          "Water leaks in above-ground pipes and equipment",
+          "The absence or failure in performance of ground-fault circuit interrupter protection devices",
+          "Deficiencies in: surfaces; tiles, coping, and decks; slides, steps, diving boards, handrails, and other equipment; drains, skimmers, and valves; filters, gauges, pumps, motors, controls, and sweeps; lighting fixtures; and the pool heater that these standards of practice require to be reported for the heating system"
+        ],
+        "not_required": [
+          "Disassemble filters or dismantle or otherwise open any components or lines",
+          "Operate valves",
+          "Uncover or excavate any lines or concealed components of the system",
+          "Fill the pool, spa, or hot tub with water",
+          "Inspect any system that has been winterized, shut down, or otherwise secured",
+          "Determine the presence of sub-surface water tables",
+          "Determine the effectiveness of entrapment covers",
+          "Determine the presence of pool shell or sub-surface leaks",
+          "Inspect ancillary equipment such as computer controls, covers, chlorinators or other chemical dispensers, or water ionization devices or conditioners other than required by this section"
+        ]
+      },
+      {
+        "heading": "Outbuildings",
+        "deficient": [
+          "The absence or failure in performance of ground-fault circuit interrupter protection devices in grade-level portions of unfinished accessory buildings used for storage or work areas, boathouses, and boat hoists",
+          "Deficiencies in the structural, electrical, plumbing, heating, ventilation, and cooling systems that these standards of practice require to be reported for the principal building"
+        ]
+      },
+      {
+        "heading": "Private water wells",
+        "required": [
+          "Operate at least two fixtures simultaneously",
+          "Recommend or arrange to have performed coliform testing"
+        ],
+        "report": [
+          "The type of pump and storage equipment",
+          "The proximity of any known septic system"
+        ],
+        "deficient": [
+          "Water pressure and flow and performance of pressure switches",
+          "The condition of accessible equipment and components",
+          "The well head, including improper site drainage and clearances"
+        ],
+        "not_required": [
+          "Open, uncover, or remove the pump, heads, screens, lines, or other components of the system",
+          "Determine the reliability of the water supply or source",
+          "Locate or verify underground water leaks"
+        ]
+      },
+      {
+        "heading": "Private sewage disposal systems",
+        "report": [
+          "The type of system",
+          "The location of the drain or distribution field",
+          "The proximity of any known water wells, underground cisterns, water supply lines, bodies of water, sharp slopes or breaks, easement lines, property lines, soil absorption systems, swimming pools, or sprinkler systems"
+        ],
+        "deficient": [
+          "Visual or olfactory evidence of effluent seepage or flow at the surface of the ground",
+          "Inoperative aerators or dosing pumps",
+          "Deficiencies in: accessible components; functional flow; site drainage and clearances around or adjacent to the system; and the aerobic discharge system"
+        ],
+        "not_required": [
+          "Excavate or uncover the system or its components",
+          "Determine the size, adequacy, or efficiency of the system",
+          "Determine the type of construction used"
+        ]
+      },
+      {
+        "heading": "Other built-in appliances",
+        "deficient": [
+          "Deficiencies in condition or operation of other built-in appliances not listed under \u00a7535.232"
+        ]
+      }
+    ]
+  }
+}
